@@ -1,9 +1,10 @@
 import Head from 'next/head';
 
+import 'css-shortcut';
+
 import Header from '@/components/ui/header/Header';
 import FuelTypeConverter from '@/components/fuelTypeConverter/FuelTypeConverter';
-
-import 'css-shortcut';
+import DistanceCalculator from '@/components/distanceCalculator/DistanceCalculator';
 
 export default function Home() {
     return (
@@ -17,6 +18,7 @@ export default function Home() {
             <Header />
             <main>
                 <FuelTypeConverter />
+                <DistanceCalculator />
             </main>
         </>
     );

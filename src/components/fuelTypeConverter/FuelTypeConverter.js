@@ -15,7 +15,7 @@ const FuelTypeConverter = () => {
                 <div className='d-flex flex-row tac aic'>
                     <div className='mr-15'>
                         <input
-                            className={styles.firstInput}
+                            className={styles.input}
                             placeholder='Enter your value'
                             type='number'
                             value={inputOne}
@@ -26,7 +26,7 @@ const FuelTypeConverter = () => {
                     {inputOne ? (
                         <div className='ml-15'>
                             <input
-                                className={styles.secondInput}
+                                className={styles.input}
                                 placeholder=''
                                 type='number'
                                 value={convertMPG}
