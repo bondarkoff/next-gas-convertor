@@ -1,7 +1,9 @@
 import Head from 'next/head';
 
-import 'css-shortcut';
 import Header from '@/components/ui/header/Header';
+import FuelTypeConverter from '@/components/fuelTypeConverter/FuelTypeConverter';
+
+import 'css-shortcut';
 
 export default function Home() {
     return (
@@ -13,7 +15,9 @@ export default function Home() {
                 <link rel='icon' href='/favicon.ico' />
             </Head>
             <Header />
-            <main></main>
+            <main>
+                <FuelTypeConverter />
+            </main>
         </>
     );
 }

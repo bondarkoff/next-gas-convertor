@@ -1,0 +1,35 @@
+.title {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+.firstInput,
+.secondInput {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+}
+
+.equals {
+    width: 48px;
+    height: 48px;
+    font-size: 32px;
+}
+
+.secondInput::-webkit-outer-spin-button,
+.secondInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.secondInput[type='number'] {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
