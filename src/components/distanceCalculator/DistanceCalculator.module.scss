@@ -9,7 +9,7 @@
 }
 
 .total {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 400;
     margin-top: 1rem;
     margin-bottom: 1rem;
@@ -38,4 +38,21 @@
 .input[type='number'] {
     -moz-appearance: textfield;
     appearance: textfield;
+}
+
+@media (max-width: 425px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .input {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 20px;
+    }
+    .total {
+        font-size: 24px;
+    }
 }

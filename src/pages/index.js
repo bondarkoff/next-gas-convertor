@@ -17,8 +17,10 @@ export default function Home() {
             </Head>
             <Header />
             <main>
-                <FuelTypeConverter />
-                <DistanceCalculator />
+                <div className='container'>
+                    <FuelTypeConverter />
+                    <DistanceCalculator />
+                </div>
             </main>
         </>
     );

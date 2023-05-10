@@ -7,10 +7,8 @@ const FuelTypeConverter = () => {
     const convertMPG = Number(235.215 / inputOne).toFixed(2);
 
     return (
-        <div className='container'>
-            <div className={styles.title}>
-                Miles Per Gallon (MPG) to Litres per 100km (L/100km) and back
-            </div>
+        <>
+            <div className={styles.title}>MPG to L/100km Converter</div>
             <div className='d-flex jcsb'>
                 <div className='d-flex flex-row tac aic'>
                     <div className='mr-15'>
@@ -36,7 +34,7 @@ const FuelTypeConverter = () => {
                     ) : null}
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 

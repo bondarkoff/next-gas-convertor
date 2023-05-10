@@ -32,3 +32,17 @@
     -moz-appearance: textfield;
     appearance: textfield;
 }
+
+@media (max-width: 425px) {
+    .title {
+        font-size: 24px;
+    }
+
+    .input {
+        font-size: 18px;
+    }
+
+    .text {
+        font-size: 24px;
+    }
+}
